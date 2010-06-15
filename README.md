@@ -12,6 +12,10 @@ For more information, see the [Closure Compiler Service API Reference][1]
     $ cd ~/Library/Application\ Support/TextMate/Bundles/
     $ git clone git@github.com:macek/closure-compiler-tmbundle.git "Closure Compiler.tmbundle"
 
+If TextMate is running while you perform the update, you may want to also execute the following line:
+
+    $ osascript -e 'tell app "TextMate" to reload bundles'
+
 ## Usage
 
 1. Press __⌃⇧H__ to compile/replace your current document
