@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Closure Compiler</string>
+	<key>ordering</key>
+	<array>
+		<string>63F50ED9-26E3-4DD2-A210-78D5B2C37163</string>
+		<string>18FFF491-9BA0-4ACF-AA5B-D45D85AF072A</string>
+		<string>1C3F5D30-97C6-4CFA-8FC2-077DB905CCF4</string>
+		<string>AB0CE19C-4C97-4700-9BD9-559DADE9C6CC</string>
+	</array>
+	<key>uuid</key>
+	<string>794B5750-DF83-4DA3-8FA5-9F0C091F8ACF</string>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require "#{ENV['TM_BUNDLE_SUPPORT']}/compiler"
+
+# create new file
+new_file = "#{File.basename(ENV['TM_FILEPATH'], '.js')}.compiled.js"
+File.open(new_file, "w") do |f|
+  f.write compile
+end
+
+# open the file
+`mate #{new_file}`</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Compile</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>1C3F5D30-97C6-4CFA-8FC2-077DB905CCF4</string>
+</dict>
+</plist>

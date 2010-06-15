@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Preferences</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_CLOSURE_COMPILATION_LEVEL</string>
+				<key>value</key>
+				<string>SIMPLE_OPTIMIZATIONS</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>63F50ED9-26E3-4DD2-A210-78D5B2C37163</string>
+</dict>
+</plist>
