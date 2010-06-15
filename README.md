@@ -7,6 +7,11 @@ uses the web-based Closure Compiler Service via an HTTP POST request.
 
 For more information, see the [Closure Compiler Service API Reference][1]
 
+## Installation
+
+    $ cd ~/Library/Application\ Support/TextMate/Bundles/
+    $ git clone git@github.com:macek/closure-compiler-tmbundle.git "Closure Compiler.tmbundle"
+
 ## Usage
 
 1. Press __⌃⇧H__ to compile/replace your current document
