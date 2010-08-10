@@ -10,7 +10,7 @@
 require "#{ENV['TM_BUNDLE_SUPPORT']}/compiler"
 
 # create new file
-new_file = "#{File.basename(ENV['TM_FILEPATH'], '.js')}.compiled.js"
+new_file = "#{File.basename(ENV['TM_FILEPATH'], '.js')}.#{ENV['TM_CLOSURE_FILENAME_PREFIX']}.js"
 File.open(new_file, "w") do |f|
   f.write compile
 end
